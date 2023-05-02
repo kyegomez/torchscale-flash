@@ -217,7 +217,7 @@ from einops import rearrange
 # from flash_attention import FlashAttention, FlashMHA
 from flash_attn.flash_attention import FlashMHA
 
-#sparsificaiton, pruning, fp16, layer norm, keys and values are precomputed for the encoder decoder mechanism
+#sparsificaiton, pruning, fp16, layer norm, keys and values are precomputed for the encoder decoder mechanism -- 
 class MultiheadAttention(nn.Module):
     def __init__(
             self,
